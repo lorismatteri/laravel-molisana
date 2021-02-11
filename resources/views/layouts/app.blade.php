@@ -7,7 +7,7 @@
         <title>Laravel | Molisana</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Nunito:200,400,600,800" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Nunito:200,400,600,800,900" rel="stylesheet">
 
         <!-- CSS -->
         <link rel="stylesheet" href="{{asset('css/app.css')}}">
