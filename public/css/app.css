@@ -5,6 +5,38 @@
 }
 
 body {
-  background-color: yellow;
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+}
+
+header .logo {
+  text-align: center;
+}
+
+header .navbar {
+  text-align: center;
+  background-color: #B1D281;
+  padding: 1.5rem 0;
+}
+
+header .navbar li {
+  display: inline-block;
+  padding: 0 1rem;
+  font-size: 1.5rem;
+  font-weight: 800;
+}
+
+header .navbar li a {
+  text-decoration: none;
+  color: white;
+}
+
+header .navbar li a:hover {
+  color: #002D75;
+  border-bottom: 3px solid #002D75;
 }
 
