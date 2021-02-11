@@ -20,11 +20,13 @@
             </div>
             <nav class="navbar">
                 <ul>
-                    <li><a href="">HOME</a></li>
-                    <li><a href="">PRODOTTI</a></li>
-                    <li><a href="">CONTATTI</a></li>
+                    <li><a href="/">HOME</a></li>
+                    <li><a href="products">PRODOTTI</a></li>
+                    <li><a href="contacts">CONTATTI</a></li>
                 </ul>
             </nav>
         </header>
+
+        @yield('content')
     </body>
 </html>
