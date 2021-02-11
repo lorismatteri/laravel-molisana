@@ -37,21 +37,22 @@ header {
 
 main {
     color: #002D75;
+    text-align: center;
 }
 
-.container_home {
-    text-align: center;
+.container {
     padding: 2rem 0;
+}
+
+.home {
     p {
         padding: 1rem 0;
     }
 }
 
-.container_products {
-    padding: 2rem 0;
+.products {
     background-image: url('../img/fondo-pag-speciali.jpg');
     h2 {
-        text-align: center;
         font-size: 2rem;
         font-weight: 900;
     }

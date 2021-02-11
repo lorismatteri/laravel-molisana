@@ -143,6 +143,6 @@ Route::get('products', function () {
 });
 
 Route::get('contacts', function() {
-    return 'Contatti';
+    return view('partials.contacts');
 });
 

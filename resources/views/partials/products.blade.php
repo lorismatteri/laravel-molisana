@@ -2,7 +2,7 @@
 
 @section('content')
 <main>
-    <div class="container_products">
+    <div class="container products">
         <h2>LE LUNGHE</h2>
         <section id="lunghe">
             @foreach($pastas as $pasta)
