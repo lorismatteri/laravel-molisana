@@ -8,6 +8,14 @@ body {
     font-family: 'Nunito', sans-serif;
 }
 
+.container {
+    padding: 2rem 0;
+}
+
+//! Variabili */
+$main_color: #002D75;
+
+//* Header */
 header {
     display: flex;
     flex-direction: column;
@@ -28,24 +36,21 @@ header {
                 color: white;
             }
             a:hover {
-                color: #002D75;
-                border-bottom: 3px solid #002D75;
+                color: $main_color;
+                border-bottom: 3px solid $main_color;
             }
         }
         .active {
-            color: #002D75;
-            border-bottom: 3px solid #002D75;
+            color: $main_color;
+            border-bottom: 3px solid $main_color;
         }
     }
 }
 
+//* Main */
 main {
-    color: #002D75;
+    color: $main_color;
     text-align: center;
-}
-
-.container {
-    padding: 2rem 0;
 }
 
 .home {
@@ -54,6 +59,7 @@ main {
     }
 }
 
+//* Products */
 .products {
     background-image: url('../img/fondo-pag-speciali.jpg');
     h2 {
