@@ -14,8 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
-});
+    return view('home');
+})->name('home');
+
 Route::get('products', function () {
     $pastas = [
         [
@@ -140,9 +141,9 @@ Route::get('products', function () {
         ]
     ];
     return view('partials.products', compact('pastas'));
-});
+})->name('products');
 
 Route::get('contacts', function() {
     return view('partials.contacts');
-});
+})->name('contacts');
 

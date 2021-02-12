@@ -40,6 +40,11 @@ header .navbar li a:hover {
   border-bottom: 3px solid #002D75;
 }
 
+header .navbar .active {
+  color: #002D75;
+  border-bottom: 3px solid #002D75;
+}
+
 main {
   color: #002D75;
   text-align: center;

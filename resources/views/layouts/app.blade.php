@@ -20,9 +20,9 @@
             </div>
             <nav class="navbar">
                 <ul>
-                    <li><a href="/">HOME</a></li>
-                    <li><a href="products">PRODOTTI</a></li>
-                    <li><a href="contacts">CONTATTI</a></li>
+                    <li><a href="{{route('home')}}" class="{{Route::currentRouteName() === 'home' ? 'active' : ''}}">HOME</a></li>
+                    <li><a href="{{route('products')}}" class="{{Route::currentRouteName() === 'products' ? 'active' : ''}}">PRODOTTI</a></li>
+                    <li><a href="{{route('contacts')}}" class="{{Route::currentRouteName() === 'contacts' ? 'active' : ''}}">CONTATTI</a></li>
                 </ul>
             </nav>
         </header>
