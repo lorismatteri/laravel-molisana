@@ -9,6 +9,12 @@
                 @if($pasta['tipo'] == 'lunga')
                     <div class="card">
                         <img src="{{$pasta['src']}}" alt="">
+                        <div class="overlay">
+                            <img src="{{asset('img/icon.svg')}}" alt="">
+                            <h4>{{$pasta['titolo']}}</h4>
+                            <p>Cottura: {{$pasta['cottura']}}</p>
+                            <p>Peso: {{$pasta['peso']}}</p>
+                        </div>
                     </div>
                 @endif
             @endforeach
@@ -19,6 +25,12 @@
                 @if($pasta['tipo'] == 'corta')
                     <div class="card">
                         <img src="{{$pasta['src']}}" alt="">
+                        <div class="overlay">
+                            <img src="{{asset('img/icon.svg')}}" alt="">
+                            <h4>{{$pasta['titolo']}}</h4>
+                            <p>Cottura: {{$pasta['cottura']}}</p>
+                            <p>Peso: {{$pasta['peso']}}</p>
+                        </div>
                     </div>
                 @endif
             @endforeach
@@ -29,6 +41,12 @@
                 @if($pasta['tipo'] == 'cortissima')
                     <div class="card">
                         <img src="{{$pasta['src']}}" alt="">
+                        <div class="overlay">
+                            <img src="{{asset('img/icon.svg')}}" alt="">
+                            <h4>{{$pasta['titolo']}}</h4>
+                            <p>Cottura: {{$pasta['cottura']}}</p>
+                            <p>Peso: {{$pasta['peso']}}</p>
+                        </div>
                     </div>
                 @endif
             @endforeach
